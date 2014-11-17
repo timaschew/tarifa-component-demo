@@ -1,0 +1,15 @@
+#=============#
+# IOS / XCODE #
+#=============#
+
+*.mobileprovision
+
+#=============#
+#     MISC    #
+#=============#
+
+private.json
+
+project/node_modules/*
+project/components/*
+project/www/*

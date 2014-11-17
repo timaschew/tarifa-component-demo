@@ -1,0 +1,85 @@
+{
+  "name": "test",
+  "id": "timaschew.test",
+  "description": "",
+  "version": "0.0.0",
+  "platforms": [
+    "android",
+    "browser"
+  ],
+  "configurations": {
+    "android": {
+      "default": {
+        "id": "timaschew.test",
+        "product_name": "test",
+        "product_file_name": "test"
+      },
+      "dev": {
+        "id": "timaschew.test.dev",
+        "product_name": "test",
+        "product_file_name": "test-dev"
+      },
+      "stage": {
+        "id": "timaschew.test.stage",
+        "product_name": "test",
+        "product_file_name": "test-stage"
+      },
+      "prod": {
+        "id": "timaschew.test.prod",
+        "product_name": "test prod",
+        "product_file_name": "test-prod"
+      }
+    },
+    "browser": {
+      "default": {
+        "id": "timaschew.test",
+        "product_name": "test",
+        "product_file_name": "test"
+      },
+      "dev": {
+        "id": "timaschew.test.dev",
+        "product_name": "test dev",
+        "product_file_name": "test-dev"
+      },
+      "stage": {
+        "id": "timaschew.test.stage",
+        "product_name": "test stage",
+        "product_file_name": "test-stage"
+      },
+      "prod": {
+        "id": "timaschew.test.prod",
+        "product_name": "test prod",
+        "product_file_name": "test-prod"
+      }
+    }
+  },
+  "cordova": {
+    "preferences": {
+      "DisallowOverscroll": true,
+      "EnableViewportScale": false,
+      "KeyboardDisplayRequiresUserAction": false,
+      "ShowSplashScreenSpinner": false,
+      "HideKeyboardFormAccessoryBar": false,
+      "SplashScreen": "screen",
+      "BackgroundColor": "0xffffffff",
+      "AutoHideSplashScreen": false,
+      "KeyboardShrinksView": true,
+      "KeepRunning": true
+    },
+    "accessOrigin": [
+      "*"
+    ]
+  },
+  "author": {
+    "name": "",
+    "email": "",
+    "href": ""
+  },
+  "check": {
+    "android": "./project/bin/check_android.js",
+    "browser": "./project/bin/check_browser.js"
+  },
+  "plugins": {
+    "org.apache.cordova.splashscreen": "https://github.com/apache/cordova-plugin-splashscreen.git#r0.3.4"
+  }
+}
