@@ -16,7 +16,8 @@
   "dependencies": {
     "necolas/normalize.css": "^3.0.2",
     "fortawesome/font-awesome": "^4.2.0",
-    "component/dom": "1.*",
+    "component/domify": "1.*",
+    "component/query": "^0.0.1",
     "anthonyshort/after-transition": "^0.0.4"
   }
 }
