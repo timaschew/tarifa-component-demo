@@ -1,0 +1,13 @@
+{
+  "name": "tarifa-demo-project",
+  "version": "0.0.0",
+  "description": "This is the frontend package manager for the tarifa app",
+  "license": "MIT",
+  "dependencies": {
+    "builder-autoprefixer": "^1.0.4",
+    "component-builder": "^1.1.13",
+    "component-resolver": "^1.2.7",
+    "mkdirp": "^0.5.0",
+    "q": "^1.0.1"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "main": "app.js",
+  "scripts": [
+    "app.js"
+  ],
+  "styles": [
+    "styles.css"
+  ],
+  "templates": [
+    "settings.html"
+  ],
+  "page": "index.html",
+  "locals": [
+    "css-circle"
+  ],
+  "dependencies": {
+    "necolas/normalize.css": "^3.0.2",
+    "fortawesome/font-awesome": "^4.2.0",
+    "component/dom": "1.*",
+    "anthonyshort/after-transition": "^0.0.4"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "tarifa-demo-project",
+  "description": "This is the tarifa default demo project",
+  "license": "MIT",
+  "paths": [
+    "src"
+  ],
+  "locals": [
+    "boot"
+  ]
+}

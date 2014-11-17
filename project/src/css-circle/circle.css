@@ -1,0 +1,35 @@
+/* outer cicle */
+.circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    margin: auto;
+    border: 20px solid rgb(255, 255, 255);
+    background-color: rgb(64, 133, 180);
+}
+
+/* inner circle */
+.circle.inside {
+    border:none;
+    width:150px;
+    height:150px;
+    border-radius: 150px;
+    background: white;
+    transform: translate3d(0,25px,0);
+}
+/* stamp within the inner circle */
+.circle.little {
+    border:none;
+    width: 75px;
+    height: 75px;
+    border-radius: 75px;
+    transform: translate3d(35px,86px,0);
+}
+/* animation */
+.circle.main {
+    transition: transform 300ms ease-in-out 0s; 
+    transform: rotateZ(280deg);
+}
+.circle.animate {
+    transform: rotateZ(0deg);
+}

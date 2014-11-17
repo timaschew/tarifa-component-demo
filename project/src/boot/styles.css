@@ -1,0 +1,57 @@
+html {
+    height: 100%;
+    width:100%;
+    margin:0;
+    padding:0;
+}
+
+body {
+    background: rgb(72, 126, 194);
+    font-size: 30px;
+    color: white;
+    height: 100%;
+    width:100%;
+    margin:0;
+    padding:0;
+    background: #487EC2;
+    background-image: linear-gradient(-44deg, #514A9D 0%, #24C6DC 100%);
+    background-repeat: no-repeat;
+}
+p {
+    padding: 50px 10px 10px 10px;
+    margin:0;
+    text-align:center;
+    font-size:40px;
+}
+p.info{
+    opacity:0;
+    padding: 10px 20px;
+    font-size: 22px;
+    padding: 10px 20px 0 20px;
+}
+p.info.fadeIn {
+    transition: opacity 400ms linear 0s; 
+    opacity: 1;
+}
+
+.refresh {
+    margin-top: 30px;
+    text-align: center;
+}
+.refresh a {
+    color: black;
+}
+.refresh a:hover {
+    color: white;
+}
+
+dt {
+    float: left;
+    font-weight: bold;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+dd {
+    text-align: right;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    margin:0;
+}
