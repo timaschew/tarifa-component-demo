@@ -55,7 +55,7 @@ module.exports.build = function build(platform, settings, envName) {
           // consider using https://github.com/componentjs/bundler.js
         }
         var bootComponent = tree.locals[entryPoints[0]];
-        var settingsModule = '\nrequire.define("tarifa-settings", '+JSON.stringify(currentSettings)+');\n';
+        var settingsModule = '\nrequire.define("tarifa.json", '+JSON.stringify(currentSettings)+');\n';
         var autoRequire = '\nrequire("' + bootComponent.canonical + '");';
         output = builder.scripts.require + settingsModule + output + autoRequire;
         fs.writeFileSync(path.join(WWW, 'app.js'), output);

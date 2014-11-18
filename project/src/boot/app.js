@@ -1,4 +1,5 @@
-var settings = require('tarifa-settings');
+// tarifa.json (injected during build time)
+var settings = require('tarifa.json');
 // remote dependencies (full name)
 var domify = require('component-domify');
 // remote dependencies (short name)
