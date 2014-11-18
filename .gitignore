@@ -13,5 +13,4 @@ private.json
 project/node_modules/*
 project/components/*
 project/www/*
-app/platforms/android/.gradle/*
 app/platforms/browser/www/*
