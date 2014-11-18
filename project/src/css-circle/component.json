@@ -1,3 +1,9 @@
 {
-  "styles": ["circle.css"]
+  "scripts": ["index.js"],
+  "templates": ["template.html"],
+  "styles": ["circle.css"],
+  "dependencies": {
+    "component/domify": "1.*",
+    "anthonyshort/after-transition": "^0.0.4"
+  }
 }
