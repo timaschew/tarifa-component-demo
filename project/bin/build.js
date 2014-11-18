@@ -36,9 +36,8 @@ module.exports.build = function build(platform, settings, envName) {
     out: path.join(__dirname, '..', 'components')
   };
   if (envName != 'prod') {
-    //TODO: sourceURLs not working for local files
-    // options.development = true;
-    // resolverOptions.development = true;
+    options.development = true;
+    resolverOptions.development = true;
   }
   // resolve the dependency tree
   resolve(options.root, resolverOptions, function (err, tree) {
