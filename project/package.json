@@ -1,7 +1,7 @@
 {
   "name": "tarifa-demo-project",
   "version": "0.0.0",
-  "description": "This is the frontend package manager for the tarifa app",
+  "description": "This is for browser build of the tarifa app",
   "license": "MIT",
   "dependencies": {
     "builder-autoprefixer": "^1.0.4",
