@@ -9,6 +9,13 @@
   "templates": [
     "settings.html"
   ],
+  "fonts": [
+    "fonts/AlexBrush/alexbrush-regular.eot",
+    "fonts/AlexBrush/alexbrush-regular.svg",
+    "fonts/AlexBrush/alexbrush-regular.ttf",
+    "fonts/AlexBrush/alexbrush-regular.woff",
+    "fonts/AlexBrush/alexbrush-regular.woff2"
+  ],
   "page": "index.html",
   "locals": [
     "css-circle"
