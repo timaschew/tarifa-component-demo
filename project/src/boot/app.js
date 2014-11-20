@@ -26,10 +26,24 @@ module.exports = (function() {
         var circleContainer = query('.circle-container');
         circleContainer.appendChild(circle.element);
 
-        // hide splashscreen and start animation
-        navigator.splashscreen.hide();
-        circle.animate(function() {
-          infoEl.classList.add('fadeIn');
-        });
+        // actually the splash screen appears only for some milliseconds
+        // avoid this flickering by delay it for 500ms
+        setTimeout(function() {
+            // to avoid flickering when injecting templates: show at startup
+            // only the body element, hide everything inside ('#before-init')
+            // show it when all templates were injected
+
+            // hide splashscreen and start animation
+            query('#before-init').id = '';
+            navigator.splashscreen.hide();
+            // just delay again 
+            setTimeout(function() {
+                circle.animate(function() {
+                    infoEl.classList.add('fadeIn');
+                });
+            }, 500);
+        }, 500);
+        
+        
     });
 })();
