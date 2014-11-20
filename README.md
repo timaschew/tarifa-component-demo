@@ -8,6 +8,8 @@ tarifa check
 tarifa run browser
 ```
 
+![Screenshot](https://lh4.googleusercontent.com/-u1FmodIuJp8/VG2tMd-W4qI/AAAAAAAAAQY/HQmbYMXNaao/w408-h679-no/Screenshot_2014-11-20-09-57-33.png)
+
 Tarifa let you create (Apache Cordova) mobile apps very easy.
 
 The result of this project is quite the same as the [tarifa default example](https://github.com/TarifaTools/tarifa/tree/master/template/project).
