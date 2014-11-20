@@ -13,6 +13,7 @@ var settingsTemplate = require('./settings');
 
 // this module is be loaded at the end of the app.js (autorequire)
 module.exports = (function() {
+    // for mobile apps we need to wait for this event instead of DOMContentLoaded
     document.addEventListener('deviceready', function () {
         // load info template and fill in data
         var infoElement = domify(settingsTemplate);
@@ -33,7 +34,7 @@ module.exports = (function() {
             // only the body element, hide everything inside ('#before-init')
             // show it when all templates were injected
 
-            // hide splashscreen and start animation
+            // make content visible and hide splashscreen, thenstart animation
             query('#before-init').id = '';
             navigator.splashscreen.hide();
             // just delay again 
@@ -43,7 +44,5 @@ module.exports = (function() {
                 });
             }, 500);
         }, 500);
-        
-        
     });
 })();

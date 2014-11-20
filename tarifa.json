@@ -2,7 +2,7 @@
   "name": "test",
   "id": "timaschew.test",
   "description": "",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "platforms": [
     "android",
     "browser"
