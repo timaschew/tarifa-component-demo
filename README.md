@@ -1,13 +1,14 @@
 tarifa-component-demo
 =====================
 
-example app for tarifa using component
+example app for [tarifa](http://tarifa.tools) using component
 
 ```
 tarifa check
 tarifa run browser
 ```
 
+Tarifa let you create (Apache Cordova) mobile apps very easy.
 
 The result of this project is quite the same as the [tarifa default example](https://github.com/TarifaTools/tarifa/tree/master/template/project).
 
@@ -24,4 +25,12 @@ See the [source code](https://github.com/timaschew/tarifa-component-demo/tree/ma
 - component instead of browserify
 - extract the css circle in its own local module
 - other remote modules (which supports component)
-- handling css, template and fonts
+- handling css, fonts and templates in the build step
+  - use local css and normalize.css
+  - use local fonts and Font Awesome
+  - use HTML templates
+- refresh button, which does a page reload
+
+If you want to go further, check out the 
+[component wiki](https://github.com/componentjs/component/wiki/Components) 
+containing many module. Just search for `mobile` or `touch`.
