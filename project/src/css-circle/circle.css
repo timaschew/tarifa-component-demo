@@ -27,7 +27,7 @@
 }
 /* animation */
 .circle.main {
-    transition: transform 300ms ease-in-out 0s; 
+    transition: transform 500ms ease-in-out 0s; 
     transform: rotateZ(280deg);
 }
 .circle.animate {
